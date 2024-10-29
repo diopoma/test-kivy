@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = KivyMD-App
+title = aftu SL
 
 # (str) Package name
-package.name = APP-Boilerplate
+package.name = APP-aftusl
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.boilerplate.net
+package.domain = org.aftusl
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -36,7 +36,7 @@ version = 0.0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,cpython,kivy,kivymd,pycrypto,cython,numpy,opencv-python,xcamera,zbarcam,Pillow,zbar-py,pyzbar
+requirements = python3,cpython,kivy,kivymd,pycrypto,cython,numpy,opencv-python,Pillow
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -46,10 +46,10 @@ requirements = python3,cpython,kivy,kivymd,pycrypto,cython,numpy,opencv-python,x
 #garden_requirements =
 
 # (str) Presplash of the application
-#presplash.filename = %(source.dir)s/data/presplash.png
+#presplash.filename = %(source.dir)s/logo.png
 
 # (str) Icon of the application
-#icon.filename = %(source.dir)s/data/icon.png
+#icon.filename = %(source.dir)s/logo.png
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
 orientation = portrait
@@ -85,7 +85,7 @@ fullscreen = 0
 #android.presplash_color = #FFFFFF
 
 # (list) Permissions
-android.permissions = INTERNET,CAMERA
+#android.permissions = INTERNET,CAMERA
 
 # (int) Target Android API, should be as high as possible.
 #android.api = 27
